@@ -1,0 +1,12 @@
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  color: #555;
+  min-height: 650px;
+}
+#cloud-container {
+  margin-top: -380px;
+}
+.navbar {
+  background-color: rgba(52, 58, 64, 0.4)!important;
+}
