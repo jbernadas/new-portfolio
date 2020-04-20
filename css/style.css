@@ -2,11 +2,26 @@
   margin: 0;
   padding: 30px;
   color: #555;
-  min-height: 650px;
 }
 #cloud-container {
   margin-top: -380px;
 }
-.navbar {
-  background-color: rgba(52, 58, 64, 0.4)!important;
+h1 {
+  font-size: 4rem;
 }
+.navbar {
+  background-color: transparent !important;
+}
+#nucampNavbar .nav-link {
+  padding: 0 40px;
+}
+#brand-name h1 {
+  font-family: 'Oswald', sans-serif;
+}
+#site-header .row.align-items-center {
+  min-height: 650px;
+  padding-bottom: 50px;
+}
+/* #nucampNavbar>ul>li:first-child>a.nav-link {
+  padding-left: 0;
+} */
