@@ -31,17 +31,16 @@ h1 {
 /* #nucampNavbar>ul>li:first-child>a.nav-link {
   padding-left: 0;
 } */
-.card-title {
-  margin: 1.5rem;
-}
+
 
 #highlight {
-  margin-top: 4.5rem;
+  margin-top: 5rem;
   margin-bottom: 5.5rem;
 }
-#highlight h3 {
+#highlight h3, #latest-projects h3 {
   color: #545b62;
   font-weight: 700;
+  margin: 1.5rem;
 }
 #highlight .card {
   border: 0;
@@ -50,22 +49,59 @@ h1 {
 #highlight svg {
   height: 150px;
 }
-.proj-image {
-  height: 400px;
+.proj-image, .proj-description {
+  min-height: 400px;
+}
+.proj-description {
+  padding: 20px 50px 40px;
+}
+.proj-image { 
   background-color: #e9ecef;
 }
-
+#highlight a.btn {
+  margin: 30px;
+}
+@media (min-width: 576px) {
+  /* .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 1rem;
+  }
+  #navbar .nav-item:first-of-type a.nav-link {
+    float: left;
+    padding-left: 0;
+  }
+  #navbar .nav-item:last-of-type a.nav-link {
+    float: right;
+    padding-right: 0;
+  } */
+}
 @media (min-width: 768px) {
   .navbar-brand {
     margin-right: 0;
   }
-  #nucampNavbar .nav-item:first-of-type a.nav-link {
+  /* #navbar .nav-item:first-of-type a.nav-link {
     float: left;
-    padding: 0;
   }
-  #nucampNavbar .nav-item:last-of-type a.nav-link {
+  #navbar .nav-item:last-of-type a.nav-link {
     float: right;
-    padding: 0;
+  }
+  #navbar .nav-item:last-of-type a.nav-link, #navbar .nav-item:first-of-type a.nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  } */
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 1rem;
+  }
+  #navbar .nav-item:first-of-type a.nav-link {
+    float: left;
+    padding-left: 0;
+  }
+  #navbar .nav-item:last-of-type a.nav-link {
+    float: right;
+    padding-right: 0;
   }
   #highlight .card-body {
     padding-left: 0;
