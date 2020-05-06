@@ -1,3 +1,7 @@
+body {
+  font-size: 22px;
+  color: grey;
+}
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -9,8 +13,11 @@
 h1 {
   font-size: 4rem;
 }
+.btn {
+  font-size: inherit;
+}
 .navbar {
-  background-color: transparent !important;
+  background-color: #e9ecef !important;
 }
 #nucampNavbar .nav-link {
   padding: 0 40px;
@@ -20,8 +27,48 @@ h1 {
 }
 #site-header .row.align-items-center {
   min-height: 650px;
-  padding-bottom: 50px;
 }
 /* #nucampNavbar>ul>li:first-child>a.nav-link {
   padding-left: 0;
 } */
+.card-title {
+  margin: 1.5rem;
+}
+
+#highlight {
+  margin-top: 4.5rem;
+  margin-bottom: 5.5rem;
+}
+#highlight h3 {
+  color: #545b62;
+  font-weight: 700;
+}
+#highlight .card {
+  border: 0;
+  text-align: center;
+}
+#highlight svg {
+  height: 150px;
+}
+.proj-image {
+  height: 400px;
+  background-color: #e9ecef;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+  #nucampNavbar .nav-item:first-of-type a.nav-link {
+    float: left;
+    padding: 0;
+  }
+  #nucampNavbar .nav-item:last-of-type a.nav-link {
+    float: right;
+    padding: 0;
+  }
+  #highlight .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
