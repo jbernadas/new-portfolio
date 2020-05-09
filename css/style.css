@@ -8,6 +8,10 @@ body {
   color: #555;
   height: -webkit-fill-available; }
 
+#nav-brand-name {
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif; }
+
 #cloud-container {
   margin-top: -380px; }
 
@@ -23,9 +27,11 @@ h1 {
 #nucampNavbar .nav-link {
   padding: 0 40px; }
 
+#nav-brand-name, #brand-name {
+  color: #fff8be; }
+
 #brand-name h1 {
   font-family: 'Oswald', sans-serif;
-  color: #fff8be;
   font-size: 70px; }
 
 #brand-name h2 {
@@ -95,7 +101,7 @@ h2.section-title {
 
 #toTop {
   width: 80px;
-  color: rgba(128, 128, 128, 0.74);
+  color: rgba(40, 44, 52, 0.9);
   position: fixed;
   bottom: 20px;
   right: 20px; }
@@ -130,11 +136,10 @@ h2.section-title {
   } */
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 5vw;
-    padding-left: 5vw;
-    padding-bottom: 1rem; }
+    padding-left: 5vw; }
   #navbar .nav-item:first-of-type a.nav-link {
     float: left;
-    padding-left: 0; }
+    padding-left: 10vw; }
   #navbar .nav-item:last-of-type a.nav-link {
     float: right;
     padding-right: 0; }
