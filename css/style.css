@@ -49,8 +49,7 @@ h1 {
   padding-left: 0;
 } */
 #highlight {
-  margin-top: 2.5rem;
-  margin-bottom: 7.5rem; }
+  margin-top: 2.5rem; }
 
 #highlight h3 {
   color: #c85153; }
@@ -93,11 +92,14 @@ h1 {
   margin: 30px; }
 
 h2.section-title {
-  font-size: 4rem;
+  font-size: 7rem;
   text-align: center;
-  padding-bottom: 70px;
-  color: #c85153;
-  font-weight: 800; }
+  padding-bottom: 50px;
+  color: #9e9e9e54;
+  font-weight: 800;
+  margin-top: 7.5rem;
+  margin-bottom: -18px;
+  font-family: 'Oswald', sans-serif; }
 
 #toTop {
   width: 80px;
