@@ -5,14 +5,17 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ scss/",
+    "watch:scss": "onchange \"scss/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "author": "Joseph Bernadas",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^4.12.0",
     "onchange": "^7.0.2",
     "parallelshell": "^3.0.1"
   },

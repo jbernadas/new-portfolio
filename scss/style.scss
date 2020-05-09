@@ -54,12 +54,15 @@ h1 {
 #highlight h3 {
   color: #c85153;
 }
-#highlight h3, #latest-projects h3 {
-  font-weight: 700;
-  margin: 1.5rem 0;
-  font-size: 2.5rem;
-  font-family: 'Oswald', sans-serif;
+#highlight, #latest-projects {
+  h3 {
+    font-weight: 700;
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+  }
 }
+
 #latest-projects h3 {
   color: #4d9c48;
 }
@@ -85,7 +88,6 @@ h1 {
 }
 .proj-description {
   padding: 55px 80px 80px;
-  background-color: #e5e5e5;
 }
 .proj-image {
   background-color: #3e4657;
@@ -102,7 +104,7 @@ h2.section-title {
 }
 #toTop {
   width: 80px;
-  color: rgb(128, 128, 128, 0.74);
+  color: rgba(128, 128, 128, 0.74);
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -152,5 +154,8 @@ h2.section-title {
   #highlight .card-body {
     padding-left: 0;
     padding-right: 0;
+  }
+  .proj-wrapper {
+    margin-bottom: 100px;
   }
 }
