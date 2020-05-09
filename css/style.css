@@ -1,3 +1,7 @@
+body {
+  font-size: 22px;
+  color: grey;
+}
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -10,8 +14,11 @@
 h1 {
   font-size: 4rem;
 }
+.btn {
+  font-size: inherit;
+}
 .navbar {
-  background-color: transparent !important;
+  background-color: #e9ecef !important;
 }
 #nucampNavbar .nav-link {
   padding: 0 40px;
@@ -30,3 +37,87 @@ h1 {
 /* #nucampNavbar>ul>li:first-child>a.nav-link {
   padding-left: 0;
 } */
+
+#highlight {
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+}
+#highlight h3, #latest-projects h3 {
+  color: #545b62;
+  font-weight: 700;
+  margin: 1.5rem;
+}
+#highlight .card {
+  border: 0;
+  text-align: center;
+}
+#highlight svg {
+  height: 150px;
+}
+.proj-image, .proj-description {
+  min-height: 400px;
+}
+.proj-description {
+  padding: 35px 50px 50px;
+  background-color: #f8f9fa;
+}
+.proj-image {
+  background-color: #e9ecef;
+}
+#highlight a.btn {
+  margin: 30px;
+}
+#toTop {
+  width: 80px;
+  color: grey;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+@media (min-width: 576px) {
+  /* .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 1rem;
+  }
+  #navbar .nav-item:first-of-type a.nav-link {
+    float: left;
+    padding-left: 0;
+  }
+  #navbar .nav-item:last-of-type a.nav-link {
+    float: right;
+    padding-right: 0;
+  } */
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+  /* #navbar .nav-item:first-of-type a.nav-link {
+    float: left;
+  }
+  #navbar .nav-item:last-of-type a.nav-link {
+    float: right;
+  }
+  #navbar .nav-item:last-of-type a.nav-link, #navbar .nav-item:first-of-type a.nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  } */
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 1rem;
+  }
+  #navbar .nav-item:first-of-type a.nav-link {
+    float: left;
+    padding-left: 0;
+  }
+  #navbar .nav-item:last-of-type a.nav-link {
+    float: right;
+    padding-right: 0;
+  }
+  #highlight .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
