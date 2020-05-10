@@ -61,7 +61,7 @@ h1 {
 #highlight h3 {
   color: #c85153;
 }
-#highlight, #latest-projects {
+#highlight, #recent-projects {
   h3 {
     font-weight: 700;
     margin: 1.5rem 0;
@@ -71,8 +71,12 @@ h1 {
   }
 }
 
-#latest-projects h3 {
+#recent-projects h3 {
   color: #4d9c48;
+}
+#recent-projects img {
+  text-align: center;
+  width: -webkit-fill-available;
 }
 #highlight .card {
   border: 0;
@@ -91,14 +95,11 @@ h1 {
   background: rgba(40, 44, 52, 0.8);
 }
 
-.proj-image, .proj-description {
-  min-height: 400px;
-}
+// .proj-image, .proj-description {
+//   min-height: 400px;
+// }
 .proj-description {
   padding: 55px 80px 80px;
-}
-.proj-image {
-  background-color: #3e4657;
 }
 #highlight a.btn {
   margin: 30px;
@@ -157,7 +158,6 @@ h2.section-title {
     bottom: 10px;
     right: 10px;
   }
-
 }
 @media (min-width: 768px) {
   .navbar-brand {
