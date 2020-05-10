@@ -49,6 +49,34 @@ h1 {
 #page-header {
   padding-bottom: 130px;
   height: 500px;
+  background: #282C34 url(../img/darker-nodes-n-abstract-829-min.png) no-repeat;
+  background-position: 85% 70px;
+  background-attachment: fixed;
+}
+.page-title {
+  font-family: 'Kanit', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: rgba(255, 248, 190, 0.91);
+  text-align: center;
+}
+#contactForm {
+  margin: 0 auto 120px;
+  width: 90%;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.form-control {
+  font-size: 1.3rem;
+}
+.input-group-text {
+  font-size: 1.3rem;
+}
+span.required {
+  color: red;
+  padding-right: 5px;
 }
 #teaser-section {
   min-height: 700px;
