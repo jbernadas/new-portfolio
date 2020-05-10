@@ -7,9 +7,6 @@ body {
   margin: 0;
   padding: 30px;
   color: #555;
-  height: -webkit-fill-available;
-  // height: 200vw; // Don't erase these two lines
-  // max-height: 1000px
 }
 #nav-brand-name {
   font-size: 2rem;
@@ -49,6 +46,10 @@ h1 {
   padding-bottom: 130px;
   height: 100%;
 }
+#page-header {
+  padding-bottom: 130px;
+  height: 500px;
+}
 #teaser-section {
   min-height: 700px;
 }
@@ -86,6 +87,9 @@ h1 {
   background: #282C34 url("../img/darker-nodes-n-abstract-829-min.png") no-repeat;
   background-position: 85% 100px;
   background-attachment: fixed;
+  height: -webkit-fill-available;
+  // height: 200vw; // Don't erase these two lines
+  // max-height: 1000px
 }
 #site-nav {
   background: rgba(40, 44, 52, 0.8);
