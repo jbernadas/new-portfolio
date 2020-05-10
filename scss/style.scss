@@ -113,6 +113,13 @@ h2.section-title {
   margin-bottom: -18px;
   font-family: 'Kanit', sans-serif;
 }
+#about {
+  background: whitesmoke;
+}
+#me_avatar {
+  background: antiquewhite;
+  border-radius: 49% 51% 32% 68% / 43% 43% 57% 57%;
+}
 #toTop {
   width: 80px;
   // color: rgba(128, 128, 128, 0.74);
@@ -150,7 +157,7 @@ h2.section-title {
     bottom: 10px;
     right: 10px;
   }
-  
+
 }
 @media (min-width: 768px) {
   .navbar-brand {
