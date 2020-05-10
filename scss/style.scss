@@ -32,9 +32,6 @@ h1 {
     padding: 0 40px;
   }
 }
-// #latest-proj-1 {
-//   border-radius: 37% 33% 41% 56% / 30% 40% 57% 31% ; // Creates blob border-radius
-// }
 #nav-brand-name, #brand-name {
   color: #fff8be;
 }
@@ -70,7 +67,6 @@ h1 {
     font-family: 'Kanit', sans-serif;
   }
 }
-
 #recent-projects h3 {
   color: #4d9c48;
 }
@@ -89,15 +85,11 @@ h1 {
 #site-header {
   background: #282C34 url("../img/darker-nodes-n-abstract-829-min.png") no-repeat;
   background-position: 85% 100px;
-  // background-attachment: fixed;
+  background-attachment: fixed;
 }
 #site-nav {
   background: rgba(40, 44, 52, 0.8);
 }
-
-// .proj-image, .proj-description {
-//   min-height: 400px;
-// }
 .proj-description {
   padding: 55px 80px 80px;
 }
@@ -126,7 +118,17 @@ h2.section-title {
   background: #e3ddb2;
   border-radius: 49% 51% 32% 68% / 43% 43% 57% 57%;
 }
-
+#site-footer {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
+  background: #282c34;
+  color: #94979a;
+}
+#toTop {
+  color: rgba(132, 132, 132, 0.75);
+  position: fixed;
+}
 @media (max-width: 575px) {
   h2.section-title {
     font-size: 4.5rem;
@@ -138,19 +140,6 @@ h2.section-title {
   }
 }
 @media (min-width: 576px) {
-  /* .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 5vw;
-    padding-left: 5vw;
-    padding-bottom: 1rem;
-  }
-  #navbar .nav-item:first-of-type a.nav-link {
-    float: left;
-    padding-left: 0;
-  }
-  #navbar .nav-item:last-of-type a.nav-link {
-    float: right;
-    padding-right: 0;
-  } */
   #toTop {
     width: 65px;
     bottom: 10px;
@@ -161,28 +150,10 @@ h2.section-title {
   .navbar-brand {
     margin-right: 0;
   }
-  /* #navbar .nav-item:first-of-type a.nav-link {
-    float: left;
-  }
-  #navbar .nav-item:last-of-type a.nav-link {
-    float: right;
-  }
-  #navbar .nav-item:last-of-type a.nav-link, #navbar .nav-item:first-of-type a.nav-link {
-    padding-left: 0;
-    padding-right: 0;
-  } */
   .navbar-nav .nav-link {
     padding-right: 5vw;
     padding-left: 5vw;
   }
-  // #navbar .nav-item:first-of-type a.nav-link {
-  //   float: left;
-  //   padding-left: 10vw;
-  // }
-  // #navbar .nav-item:last-of-type a.nav-link {
-  //   float: right;
-  //   padding-right: 0;
-  // }
   #highlight .card-body {
     padding-left: 0;
     padding-right: 0;
@@ -192,9 +163,6 @@ h2.section-title {
   }
   #toTop {
     width: 80px;
-    // color: rgba(128, 128, 128, 0.74);
-    color: rgba(40, 44, 52, 0.9);
-    position: fixed;
     bottom: 20px;
     right: 20px;
   }

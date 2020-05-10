@@ -1,0 +1,84 @@
+<div class="container">
+  <div class="row">
+    <h2 class="section-title">Contact</h3>
+
+    <div class="buttons">
+        <a href="tel:3614200201">
+            <button class="btn btn-primary">Call</button>
+        </a>
+        <a href="sms:3614200201">
+            <button class="btn btn-primary">Text</button>
+        </a>
+        <button id="show-contact-form-btn" class="btn btn-primary" onclick="toggle('contactForm')">Email</button>
+    </div>
+    <form id="contactForm" class="form-horizontal" method="post" action="<?php $_SERVER['SERVER_NAME']; ?>/formProcess.php">
+        <fieldset class="col-sm-12">
+            <div class="form-group">
+                <label for="Name" class="control-label">Name</label>
+                <div class="">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+                        <input type="text" id="Name" name="Name" class="form-control" placeholder="* Enter Name">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email" class=" control-label">Email</label>
+                <div class="">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i></span>
+                        <input type="email" id="Email" name="Email" class="form-control" placeholder="* Enter Email">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-group-spcl-9257">
+                <label for="Email2" class="control-label">Confirm Email</label>
+                <div class="">
+                    <div class="input-group input-group-spcl-9257">
+                        <span class="input-group-addon input-group-addon-spcl-9257"><i class="fa fa-envelope fa-fw"></i></span>
+                        <input type="email" id="email2" name="Email2" class="form-control form-control-spcl-9257" placeholder="* Confirm Email">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Phone" class="control-label">Phone</label>
+                <div class="">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
+                        <input type="text" id="Phone" name="Phone" class="form-control" placeholder="Enter Phone Number">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Message" class="control-label">Message</label>
+                <div class="">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-comment fa-fw"></i></span>
+                        <textarea id="Message" name="Message" class="form-control" rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class=""></div>
+                <div class="" id="form-consent">
+                    <input type="checkbox" name="Consent" value="given"> <label for="give consent to be contacted in response to message"> I agree to be contacted in response to my
+                    message.</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class=""></div>
+                <div id="recaptcha-wrapper">
+                    <div class="g-recaptcha" data-sitekey="6LcQ9G8UAAAAAF1FnneVaEsApqmwjNGiwpE3cFDn"  data-callback="enableBtn"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class=""></div>
+                <div class="">
+                    <button id="contactForm-button" class="btn btn-primary btn-lg" data-callback='onSubmit' type="submit">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <div id="status"></div>
+  </div><!-- contact row -->
+</div><!-- contact container -->
