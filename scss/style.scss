@@ -123,17 +123,10 @@ h2.section-title {
   }
 }
 #me-avatar {
-  background: #d6cd84;
+  background: #e3ddb2;
   border-radius: 49% 51% 32% 68% / 43% 43% 57% 57%;
 }
-#toTop {
-  width: 80px;
-  // color: rgba(128, 128, 128, 0.74);
-  color: rgba(40, 44, 52, 0.9);
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
+
 @media (max-width: 575px) {
   h2.section-title {
     font-size: 4.5rem;
@@ -196,5 +189,13 @@ h2.section-title {
   }
   .proj-wrapper {
     margin-bottom: 100px;
+  }
+  #toTop {
+    width: 80px;
+    // color: rgba(128, 128, 128, 0.74);
+    color: rgba(40, 44, 52, 0.9);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
   }
 }
