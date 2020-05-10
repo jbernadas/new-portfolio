@@ -150,18 +150,18 @@ h2.section-title {
     padding-left: 0;
     padding-right: 0;
   } */
-  .navbar-expand-sm .navbar-nav .nav-link {
+  .navbar-nav .nav-link {
     padding-right: 5vw;
     padding-left: 5vw;
   }
-  #navbar .nav-item:first-of-type a.nav-link {
-    float: left;
-    padding-left: 10vw;
-  }
-  #navbar .nav-item:last-of-type a.nav-link {
-    float: right;
-    padding-right: 0;
-  }
+  // #navbar .nav-item:first-of-type a.nav-link {
+  //   float: left;
+  //   padding-left: 10vw;
+  // }
+  // #navbar .nav-item:last-of-type a.nav-link {
+  //   float: right;
+  //   padding-right: 0;
+  // }
   #highlight .card-body {
     padding-left: 0;
     padding-right: 0;
