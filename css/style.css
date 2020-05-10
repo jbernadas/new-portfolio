@@ -98,7 +98,11 @@ h2.section-title {
   font-family: 'Kanit', sans-serif; }
 
 #about {
-  background: whitesmoke; }
+  background: whitesmoke;
+  padding-top: 1.2rem;
+  padding-bottom: 120px; }
+  #about h2 {
+    margin-top: 3vw; }
 
 #me-avatar {
   background: #d6cd84;
