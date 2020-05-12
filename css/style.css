@@ -159,7 +159,7 @@ h2.section-title {
 #highlight:first-child .highlight-svg-container, #highlight:nth-child(2) .highlight-svg-container, #highlight:last-child .highlight-svg-container {
   transition-timing-function: ease-out;
   transition: 0.5s;
-  background: radial-gradient(#282c34, #484f6d, #909dcc);
+  background: radial-gradient(#282c34, #596182, #b0bdea);
   padding: 30px 40px; }
 
 #highlight:first-child .highlight-svg-container:hover, #highlight:nth-child(2) .highlight-svg-container:hover, #highlight:last-child .highlight-svg-container:hover {
