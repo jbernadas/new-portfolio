@@ -4,6 +4,23 @@ $(document).ready(function(){
 
   // This function runs every time the user scrolls the page.
   $(window).scroll(function(){
+    if(window.location.pathname === '/' || window.location.pathname === '/index.html') {
+      displayBrandName();
+    };
+    
+    displayToTopButton();
+  })
+
+  function displayBrandName() {
+    if($(window).scrollTop() > 400) {
+      $("#nav-brand-name").removeClass("d-none");
+    }
+    else {
+      $('#nav-brand-name').addClass('d-none');
+    }
+  }
+
+  function displayToTopButton() {
     // Check weather the user has scrolled down (if "scrollTop()" is more than 0)
     if($(window).scrollTop() > 0){
       // If it's more than or equal to 0, show the toTop button.
@@ -13,7 +30,7 @@ $(document).ready(function(){
       // If it's less than 0 (at the top), hide the toTop button.
       $("#toTop").fadeOut("slow");
     }
-  })
+  }
 
   // When the user clicks the toTop button, we want the page to scroll to the top.
   $("#toTop").click(function(event){
