@@ -101,6 +101,8 @@ span.required {
 
 #recent-projects {
   margin-bottom: 300px; }
+  #recent-projects .section-title {
+    padding-bottom: 90px; }
   #recent-projects h3 {
     color: #4d9c48; }
   #recent-projects img {
