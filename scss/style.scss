@@ -144,7 +144,7 @@ h2.section-title {
     border: 0;
     text-align: center;
     svg {
-      height: 150px;
+      height: 200px;
       color: #FFF !important;
       transition-timing-function: ease-out; // transitions out slowly
       transition: 0.3s;
@@ -181,7 +181,7 @@ h2.section-title {
       .highlight-svg-container {
         border-radius: 66% 34% 38% 62%/43% 41% 59% 57%;
         overflow: hidden;
-        animation: morph2 5s linear infinite;
+        animation: morph2 5.5s linear infinite;
       }
       .highlight-svg-container:hover {
         border-radius: 32% 60% 20% 21%/71% 62% 38% 29%;
