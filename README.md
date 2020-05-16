@@ -1,5 +1,9 @@
-<h1>Nucamp Portfolio Project</h1>
+<h1>Portfolio Project</h1>
 
+<h2>Demo</h2>
+<p>Live demo of this project can be found <a target="_blank" href="https://www.jbernadas.com">here.</a></p>
+
+<h2>Introduction</h2>
 <p>This is a personal portfolio project to showcase skill in Bootstrap 4 as well as Javascript and jQuery. This project is also a requisite of Nucamp Bootcamp for Bootstrap, having enrolled to enhance my existing knowledge.</p>
 
 <p>You can download a copy of this site by cloning it in the usual way. You can then <code>cd</code> into the newly created directory and issue the command:</p>
