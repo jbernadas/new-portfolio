@@ -144,17 +144,47 @@ h2.section-title {
     transition: 0.3s;
     transition-timing-function: ease-in; }
   #highlight .card:first-child .highlight-svg-container {
-    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; }
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    overflow: hidden;
+    animation: morph1 5s linear infinite; }
   #highlight .card:first-child .highlight-svg-container:hover {
     border-radius: 56% 44% 43% 57%/40% 55% 45% 60%; }
+
+@keyframes morph1 {
+  0%, 100% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; }
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+  67% {
+    border-radius: 56% 44% 43% 57%/40% 55% 45% 60%; } }
   #highlight .card:nth-child(2) .highlight-svg-container {
-    border-radius: 66% 34% 38% 62%/43% 41% 59% 57%; }
+    border-radius: 66% 34% 38% 62%/43% 41% 59% 57%;
+    overflow: hidden;
+    animation: morph2 5s linear infinite; }
   #highlight .card:nth-child(2) .highlight-svg-container:hover {
     border-radius: 32% 60% 20% 21%/71% 62% 38% 29%; }
+
+@keyframes morph2 {
+  0%, 100% {
+    border-radius: 66% 34% 38% 62%/43% 41% 59% 57%; }
+  34% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%; }
+  67% {
+    border-radius: 32% 60% 20% 21%/71% 62% 38% 29%; } }
   #highlight .card:last-child .highlight-svg-container {
-    border-radius: 40% 60% 59% 41%/43% 60% 40% 57%; }
+    border-radius: 40% 60% 59% 41%/43% 60% 40% 57%;
+    overflow: hidden;
+    animation: morph3 5s linear infinite; }
   #highlight .card:last-child .highlight-svg-container:hover {
     border-radius: 20% 35% 38% 96%/34% 49% 71% 86%; }
+
+@keyframes morph3 {
+  0%, 100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%; }
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+  67% {
+    border-radius: 20% 35% 38% 96%/34% 49% 71% 86%; } }
 
 #highlight:first-child .highlight-svg-container, #highlight:nth-child(2) .highlight-svg-container, #highlight:last-child .highlight-svg-container {
   transition-timing-function: ease-out;
@@ -179,7 +209,17 @@ h2.section-title {
 
 #me-avatar {
   background: #e3ddb2;
-  border-radius: 49% 51% 32% 68% / 43% 43% 57% 57%; }
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  overflow: hidden;
+  animation: morph4 5s linear infinite; }
+
+@keyframes morph4 {
+  0%, 100% {
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+  67% {
+    border-radius: 56% 44% 43% 57%/40% 55% 45% 60%; } }
 
 #site-footer {
   padding-top: 50px;
