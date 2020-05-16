@@ -177,6 +177,10 @@ h2.section-title {
 .input-group.input-group-spcl-9257 {
   display: none; }
 
+#about-wave {
+  margin-top: -300px;
+  margin-bottom: -90px; }
+
 #about {
   background: whitesmoke;
   padding-top: 1.2rem;
@@ -200,10 +204,6 @@ h2.section-title {
 #toTop {
   color: rgba(90, 98, 129, 0.77);
   position: fixed; }
-
-#about-wave {
-  margin-top: -300px;
-  margin-bottom: -120px; }
 
 @media (max-width: 575px) {
   h2.section-title {
