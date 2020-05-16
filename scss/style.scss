@@ -247,7 +247,7 @@ h2.section-title {
 #about {
   background: whitesmoke;
   padding-top: 1.2rem;
-  padding-bottom: 10vw;
+  padding-bottom: 110px;
   h2 {
     margin-top: 3vw;
   }
@@ -295,6 +295,9 @@ h2.section-title {
   }
   .proj-description, #about-desc {
     padding: 28px;
+  }
+  #about {
+    padding-bottom: 10vw;
   }
 }
 @media (min-width: 576px) {
