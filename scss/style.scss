@@ -105,14 +105,16 @@ span.required {
     font-family: 'Kanit', sans-serif;
   }
 }
-#recent-projects h3 {
-  color: #4d9c48;
+#recent-projects {
+  margin-bottom: 300px;
+  h3 {
+    color: #4d9c48;
+  }
+  img {
+    text-align: center;
+    width: -webkit-fill-available;
+  }
 }
-#recent-projects img {
-  text-align: center;
-  width: -webkit-fill-available;
-}
-
 #site-header {
   background: #282C34 url("../img/darker-nodes-n-abstract-829-min.png") no-repeat;
   background-position: 85% 100px;
@@ -165,17 +167,17 @@ h2.section-title {
       .highlight-svg-container:hover {
         border-radius: 56% 44% 43% 57%/40% 55% 45% 60%;
       }
-      @keyframes morph1 {
-        0%, 100% {
-        border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
-        }
-        34% {
-          border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-        }
-        67% {
-          border-radius: 56% 44% 43% 57%/40% 55% 45% 60%;
-        }
-      }
+      // @keyframes morph1 {
+      //   0%, 100% {
+      //   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      //   }
+      //   34% {
+      //     border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+      //   }
+      //   67% {
+      //     border-radius: 56% 44% 43% 57%/40% 55% 45% 60%;
+      //   }
+      // }
     }
     &:nth-child(2) {
       .highlight-svg-container {
@@ -186,17 +188,17 @@ h2.section-title {
       .highlight-svg-container:hover {
         border-radius: 32% 60% 20% 21%/71% 62% 38% 29%;
       }
-      @keyframes morph2 {
-        0%, 100% {
-        border-radius: 66% 34% 38% 62%/43% 41% 59% 57%;
-        }
-        34% {
-          border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-        }
-        67% {
-          border-radius: 32% 60% 20% 21%/71% 62% 38% 29%;
-        }
-      }
+      // @keyframes morph2 {
+      //   0%, 100% {
+      //   border-radius: 66% 34% 38% 62%/43% 41% 59% 57%;
+      //   }
+      //   34% {
+      //     border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+      //   }
+      //   67% {
+      //     border-radius: 32% 60% 20% 21%/71% 62% 38% 29%;
+      //   }
+      // }
     }
     &:last-child {
       .highlight-svg-container {
@@ -208,17 +210,17 @@ h2.section-title {
         border-radius: 20% 35% 38% 96%/34% 49% 71% 86%;
       }
     }
-    @keyframes morph3 {
-      0%, 100% {
-      border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-      }
-      34% {
-        border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-      }
-      67% {
-        border-radius: 20% 35% 38% 96%/34% 49% 71% 86%;
-      }
-    }
+    // @keyframes morph3 {
+    //   0%, 100% {
+    //   border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    //   }
+    //   34% {
+    //     border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    //   }
+    //   67% {
+    //     border-radius: 20% 35% 38% 96%/34% 49% 71% 86%;
+    //   }
+    // }
   }
   &:first-child, &:nth-child(2), &:last-child {
     .highlight-svg-container {
@@ -252,17 +254,17 @@ h2.section-title {
   overflow: hidden;
   animation: morph4 5s linear infinite;
 }
-@keyframes morph4 {
-  0%, 100% {
-  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-  }
-  34% {
-    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-  }
-  67% {
-    border-radius: 56% 44% 43% 57%/40% 55% 45% 60%;
-  }
-}
+// @keyframes morph4 {
+//   0%, 100% {
+//   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+//   }
+//   34% {
+//     border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+//   }
+//   67% {
+//     border-radius: 56% 44% 43% 57%/40% 55% 45% 60%;
+//   }
+// }
 #site-footer {
   padding-top: 50px;
   padding-bottom: 60px;
@@ -274,7 +276,10 @@ h2.section-title {
   color: rgba(90, 98, 129, 0.77);
   position: fixed;
 }
-
+#about-wave {
+  margin-top: -300px;
+  margin-bottom: -80px;
+}
 @media (max-width: 575px) {
   h2.section-title {
     font-size: 4.5rem;
