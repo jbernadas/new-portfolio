@@ -1,4 +1,4 @@
-<h1>Nucamp Portfolio Project</h1>
+<h1>Portfolio Project</h1>
 
 <p>This is a personal portfolio project to showcase skill in Bootstrap 4 as well as Javascript and jQuery. This project is also a requisite of Nucamp Bootcamp for Bootstrap, having enrolled to enhance my existing knowledge.</p>
 
