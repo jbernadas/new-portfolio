@@ -184,7 +184,8 @@ h2.section-title {
     color: #4d9c48; }
   #recent-projects img {
     text-align: center;
-    width: -webkit-fill-available; }
+    width: -webkit-fill-available;
+    border-radius: 25px; }
 
 .input-group.input-group-spcl-9257 {
   display: none; }
