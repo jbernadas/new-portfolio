@@ -2,15 +2,15 @@ $(document).ready(function(){
   // Hide the toTop button when the page loads.
   $("#toTop").css("display", "none");
 
-  // This function runs every time the user scrolls the page.
+  // This checks which position the user scrolls the page.
   $(window).scroll(function(){
     if(window.location.pathname === '/' || window.location.pathname === '/index.html') {
       displayBrandName();
     };
-    
     displayToTopButton();
   })
 
+  // This controls the display of nav-brand-name upon scroll down on the frontpage only
   function displayBrandName() {
     if($(window).scrollTop() > 400) {
       $("#nav-brand-name").removeClass("d-none");
@@ -20,6 +20,7 @@ $(document).ready(function(){
     }
   }
 
+  // This controls the display of the toTop button on scroll down and up
   function displayToTopButton() {
     // Check weather the user has scrolled down (if "scrollTop()" is more than 0)
     if($(window).scrollTop() > 0){
@@ -32,7 +33,7 @@ $(document).ready(function(){
     }
   }
 
-  // When the user clicks the toTop button, we want the page to scroll to the top.
+  // When the user clicks the toTop button, we want the page to scroll to the top slowly.
   $("#toTop").click(function(event){
   // Disable the default behaviour when a user clicks an empty anchor link.
   // (The page jumps to the top instead of animating)
