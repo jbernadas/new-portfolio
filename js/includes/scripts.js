@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   // This controls the display of nav-brand-name upon scroll down on the frontpage only
   function displayBrandName() {
-    if($(window).scrollTop() > 420) {
+    if($(window).scrollTop() > 440) {
       $("#nav-brand-name").removeClass("d-none");
     }
     else {
