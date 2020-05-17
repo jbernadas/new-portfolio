@@ -4,6 +4,7 @@ $(document).ready(function(){
 
   // This checks which position the user scrolls the page.
   $(window).scroll(function(){
+    // Only trigger the displayBrandName function on the frontpage.
     if(window.location.pathname === '/' || window.location.pathname === '/index.html') {
       displayBrandName();
     };

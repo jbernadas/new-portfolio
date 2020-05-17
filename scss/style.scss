@@ -24,11 +24,16 @@ h1 {
 .navbar {
   background-color: rgba(40, 44, 52, 0.9) !important;
 }
-#nucampNavbar {
-  .nav-link {
-    padding: 0 40px;
-  }
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
+// #nucampNavbar {
+//   .nav-link {
+//     padding: 0 40px;
+//   }
+// }
 #nav-brand-name, #brand-name {
   color: #fff8be;
 }
