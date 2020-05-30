@@ -1,3 +1,5 @@
+$color-dark-grey-violet: #7e84a5;
+
 body {
   font-size: 22px;
   color: grey;
@@ -23,6 +25,9 @@ h1 {
 }
 .navbar {
   background-color: rgba(40, 44, 52, 0.9) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: lighten($color-dark-grey-violet, 5%);
 }
 .navbar-toggler:not(:disabled):not(.disabled) {
   cursor: pointer;
@@ -245,7 +250,7 @@ h2.section-title {
   padding-bottom: 60px;
   text-align: center;
   background: #282c34;
-  color: #7e84a5;
+  color: $color-dark-grey-violet;
 }
 #toTop {
   color: rgba(90, 98, 129, 0.77);

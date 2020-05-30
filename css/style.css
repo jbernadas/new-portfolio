@@ -24,6 +24,9 @@ h1 {
 .navbar {
   background-color: rgba(40, 44, 52, 0.9) !important; }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #8d92af; }
+
 .navbar-toggler:not(:disabled):not(.disabled) {
   cursor: pointer;
   margin-top: 8px;
@@ -214,7 +217,7 @@ h2.section-title {
   padding-bottom: 60px;
   text-align: center;
   background: #282c34;
-  color: #94979a; }
+  color: #7e84a5; }
 
 #toTop {
   color: rgba(90, 98, 129, 0.77);
