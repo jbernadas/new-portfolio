@@ -16,10 +16,12 @@ $(document).ready(function(){
     if($(window).scrollTop() > 440) {
       $("#nav-brand-name").removeClass("d-none");
       $("#navbar").addClass("col-lg-10 col-xl-11");
+      $("#navbar > .navbar-nav > .nav-item:first-child").addClass("d-none");
     }
     else {
       $('#nav-brand-name').addClass('d-none');
       $("#navbar").removeClass("col-lg-10 col-xl-11");
+      $("#navbar > .navbar-nav > .nav-item:first-child").removeClass("d-none");
     }
   }
 
