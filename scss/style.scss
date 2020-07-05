@@ -115,9 +115,10 @@ span.required {
   background: #282C34 url("../img/darker-nodes-n-abstract-829-min.png") no-repeat;
   background-position: 85% 100px;
   background-attachment: fixed;
-  height: -webkit-fill-available;
-  height: -moz-available;
+  height: 100vh;
   box-sizing: border-box;
+  // height: -webkit-fill-available;
+  // height: -moz-available;
   // height: 200vw; // Don't erase these two lines
   // max-height: 1000px
 }
@@ -282,6 +283,7 @@ h2.section-title {
     right: 10px;
   }
 }
+
 @media (min-width: 768px) {
   .navbar-brand {
     margin-right: 0;
@@ -301,5 +303,10 @@ h2.section-title {
     width: 80px;
     bottom: 20px;
     right: 20px;
+  }
+}
+@media (max-width: 991px) {
+  #site-header .row.align-items-center {
+    padding-bottom: 60px;
   }
 }
