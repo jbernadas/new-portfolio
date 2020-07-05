@@ -11,13 +11,6 @@ $(document).ready(function(){
     displayToTopButton();
   })
 
-  // $(window).on('load', function(){ // On load
-	// 	$('#site-header').css({'height': '-webkit-fill-available'});
-	// });
-	// $(window).resize(function(){ // On resize
-	// 	$('#site-header').css({'height': '-webkit-fill-available'});
-	// });
-
   // This controls the display of nav-brand-name upon scroll down on the frontpage only
   function displayBrandName() {
     if($(window).scrollTop() > 440) {
