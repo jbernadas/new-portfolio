@@ -108,7 +108,9 @@ span.required {
   background: #282C34 url("../img/darker-nodes-n-abstract-829-min.png") no-repeat;
   background-position: 85% 100px;
   background-attachment: fixed;
-  height: -webkit-fill-available; }
+  height: -webkit-fill-available;
+  height: -moz-available;
+  box-sizing: border-box; }
 
 #site-nav {
   background: rgba(40, 44, 52, 0.8); }

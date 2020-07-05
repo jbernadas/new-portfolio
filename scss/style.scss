@@ -116,6 +116,8 @@ span.required {
   background-position: 85% 100px;
   background-attachment: fixed;
   height: -webkit-fill-available;
+  height: -moz-available;
+  box-sizing: border-box;
   // height: 200vw; // Don't erase these two lines
   // max-height: 1000px
 }
