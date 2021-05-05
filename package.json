@@ -14,7 +14,7 @@
   "author": "Joseph Bernadas",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4",
+    "lite-server": "^2.1.0",
     "node-sass": "^4.13.1",
     "onchange": "^7.0.2",
     "parallelshell": "^3.0.1"
